@@ -1,0 +1,458 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+#hero_register .seConnecter {
+    line-height: 1.4;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+    font-size: 31px;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+.seConnecter-text{
+    text-align: center;
+}
+
+.btn-actions-fecebook {
+    display: inline-block;
+    height: 42px;
+    width: 100%;
+    padding: 0 30px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+    text-decoration: none !important;
+    white-space: nowrap;
+    cursor: pointer;
+    background-color: transparent;
+    background-color: #5b6bfb;
+    color: #FFFFFF;
+    border: 1px solid #5b6bfb;
+    box-sizing: border-box;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.connecter {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.btn-actions-apple {
+    display: inline-block;
+    height: 42px;
+    width: 100%;
+    padding: 0 30px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+    text-decoration: none !important;
+    white-space: nowrap;
+    cursor: pointer;
+    background-color: transparent;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.btn-valide {
+    display: inline-block;
+    height: 42px;
+    width: 100%;
+    padding: 0 30px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+    /* text-transform: uppercase; */
+    text-decoration: none !important;
+    white-space: nowrap;
+    cursor: pointer;
+    background-color: transparent;
+    background-color: #242736;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    transition: 0.2s;
+}
+
+#contactForm{
+    margin-top: 30px;
+}
+
+.appleIcon {
+    font-size: 17px;
+    margin-right: 9%;
+}
+.logoDeober{
+    width: 372px;
+    font-size: 29px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+.copy{
+    color: #FFFFFF;
+}
+.foote-email{
+    text-decoration: none;
+    width: 173px;
+    color: #FFFFFF;
+    background: #242736;
+    height: 32px;
+}
+
+.white{
+    width: 41px;
+    padding: 5px;
+    background: #3faba0;
+    font-size: 34px;
+    color: #fff;
+}
+.footer-text{
+    text-align: center;
+    font-size: 10px;
+}
+
+.talent{
+    margin: 0px;
+    /* width: 24px; */
+    text-align: end;
+    padding: 9px;
+    border: 1px solid #3faba0;
+    border-radius: 8px;
+    height: 41px;
+}
+.newsletter{
+    font-size: 20px;
+    color: #fff;
+}
+
+.loading{
+    height: 179px;
+}
+
+/*---------------------------------------------------------------- */
+/*--------------------------- Acceuil ------------------------- */
+/*---------------------------------------------------------------- */
+
+#accueil_register{
+    background: url(../img/icon.png)  no-repeat;
+    color: #fff;
+    background-size: 44.2em;
+}
+
+.body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center ;
+    /* min-height: 100vh; */
+
+  }
+
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  .taille{
+      width: 100%;
+    height: 362px;
+  }
+
+  @media (max-width: 320px) {
+    .logoDeober {
+        width: 222px;
+        margin-top: 13%;
+    }
+  }
+  @media (max-width: 375px) {
+    .logoDeober {
+        width: 287px;
+        margin-top: 8%;
+    }
+  }
+  @media (max-width: 425px) {
+    .logoDeober {
+        width: 287px;
+        margin-top: 8%;
+    }
+  }
+
+.nav{
+    background:#242736;
+    min-height:59px;
+    overflow:auto; 
+}
+.nav ul{
+      margin:0;
+      padding:0;
+      list-style:none;
+      margin: auto;
+}
+.nav li{
+    float:left;
+}
+
+.nav-mobile a{
+    display:block;
+    padding:17px 25px;
+    line-height:16px;
+    color:#fff;
+    text-decoration:none;
+    font-size:15px;
+   
+     
+}
+.nav-mobile a:hover{
+    background:#3faba0;
+}
+.toggle-nav{
+    display:none;
+}
+
+.titrecategorie{
+    padding: 12px;
+    font-size: 23px;
+    color: #3faba0;
+    font-weight: 600;
+}
+
+.navs {
+    background: #242736;
+    min-height: 53px;
+    overflow: auto;
+}
+.navs ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin: auto;
+}
+.navs li {
+    float: left;
+}
+
+.navs-mobile{
+    margin-left: 8%;
+}
+
+.navs-mobile a {
+    display: block;
+    padding: 9px 6px;
+    line-height: 27px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+div .navs-mobile ul li i {
+    font-size: 28px;
+}
+
+/*---------------------------------------------------------------- */
+/*--------------------------- Acceuil ------------------------- */
+/*---------------------------------------------------------------- */
+
+.tandance h1{
+    padding: 14px;
+    text-align: center;
+    font-size: 33px;
+    font-weight: 600;
+    color: #3faba0;
+}
+
+.tandance ul {
+    text-align: right;
+    margin-top: 13px;
+    padding: 5px;
+  }
+
+.tandance ul li{
+    display: inline;
+    padding: 10px;
+    font-size: 11px;
+    height: 111%
+}
+
+.tandance ul li i{
+    font-size: 15px;
+    color: white;
+}
+.filtre-cacher{
+    background-color:black ;
+    color: white;
+}
+
+.filtre-effacer{
+    background: #b8b9be;
+    color: black;
+}
+.section-tadance {
+    padding: 26px;
+    background: #dddd;
+    margin: 3px
+}
+.tandance hr
+{
+    margin: 15px 0 13px 0;
+    border-color: #baa9a9;
+}
+.section-tadance h2{
+    font-size: 18px;
+    color: #595656;
+}
+.Checkbox{
+    margin-left: 18px;
+}
+
+.Checkbox i{
+    color: #3faba0;
+    font-size: 17px;
+    padding: 3px;
+}
+
+.paginalisation ul{
+    text-align: center;
+    display: inline-flex;
+    margin: revert;
+}
+.paginalisation ul li i{
+    font-size: 32px;
+    padding: 1px;
+}
+.paginalisation{
+    margin-left: auto;
+    margin-right: auto;
+    width: 11em;
+}
+.paginalisation .page{
+    padding: 8px;
+    width: 101px;
+}
+.tt{
+    margin-top: 36px;
+}
+
+/*---------------------------------------------------------------- */
+/*--------------------------- Créateur ------------------------- */
+/*---------------------------------------------------------------- */
+
+.tt .nom h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+.tt .nom h3{
+    font-size: 12px;
+    color: #74747669;
+}
+.tt .nom a{ 
+    font-size: 11px;
+    color: #242736;
+    line-height: 3em;
+}
+.tt .nom a i{
+    letter-spacing: 8px;
+    font-size: 14px;
+    color: #3faba0;
+}
+
+.tt .nom p{
+    font-size: 9px;
+    color: #3faba0;
+}
+.video-rotation a{
+    margin-left: 33px;
+}
+.rotations{
+    font-size: 52px;
+    color: #4aafa2;
+    display: -webkit-inline-box;
+    -webkit-transform: rotate(337deg);
+}
+.video-rotation h1{
+    font-size: 21px;
+    color: #4aafa2;
+}
+.video-rotation div{
+    background: #242736;
+    width: 203px;
+    height: 31px;
+}
+
+.video-rotation div ul li{
+    font-size: 8px;
+    color: white;
+    margin: 1px;
+    padding: 10px
+}
+
+.video-rotation div ul {
+    display: flex;
+}
+.video-rotation div ul li i{
+    font-size: 18px;
+    margin-top: -4px;
+    color: #f5f8fa;
+}
+
+.ttt-fond{
+    background :url(../img/icon.png) no-repeat center bottom;
+    background-position: left;
+}
+.tdr{
+    background: #242736;
+    color: white;
+    height: 75px;
+}
+.tdr h1{
+    font-size: 17px;
+    color: white;
+}
+.tdr ul{
+    display: inline-flex;
+}
+.tdr ul i{
+    width: 26px;
+    color: #4aafa2;
+    font-size: 20px;
+}
+.tdr div{
+    margin-top: 14px;
+}
+
+.tt .profile{
+    margin: 40px;
+    margin-top: 86px;
+    padding: 0px;
+    z-index: 1;
+    margin-left: 43px;
+    border-radius: 70px;
+}
