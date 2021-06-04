@@ -1,6 +1,11 @@
 /*============================================================================================*/
 /* Your custom styles below */
 /*============================================================================================*/
+
+/*---------------------------------------------------------------- */
+/*--------------------------- se connecter ------------------------- */
+/*---------------------------------------------------------------- */
+
 #hero_register .seConnecter {
     line-height: 1.4;
     letter-spacing: 0;
@@ -101,6 +106,14 @@
     font-size: 17px;
     margin-right: 9%;
 }
+.logoDeobers{
+    width: 114%;
+    font-size: 29px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
 .logoDeober{
     width: 372px;
     font-size: 29px;
@@ -108,6 +121,7 @@
     display: flex;
     text-align: center;
 }
+
 .copy{
     color: #FFFFFF;
 }
@@ -147,6 +161,12 @@
 
 .loading{
     height: 179px;
+}
+
+.deoberPosition{
+    padding: 2px;
+    margin: auto;
+    margin-top: 40%;
 }
 
 /*---------------------------------------------------------------- */
@@ -456,3 +476,4 @@ div .navs-mobile ul li i {
     margin-left: 43px;
     border-radius: 70px;
 }
+
