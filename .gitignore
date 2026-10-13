@@ -1,0 +1,9 @@
+
+# Hermes — ne pas committer
+.aider*
+TASK.md
+.env
+.env.*
+*.db
+*.sqlite
+*.sqlite3
