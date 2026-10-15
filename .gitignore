@@ -7,3 +7,6 @@ TASK.md
 *.db
 *.sqlite
 *.sqlite3
+
+# Hermes agent local
+.hermes/
